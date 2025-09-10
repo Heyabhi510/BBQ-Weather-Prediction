@@ -33,6 +33,7 @@ Kaggle Dataset : https://www.kaggle.com/datasets/thedevastator/weather-predictio
 **Workflow:**
 
 **1. Data Preprocessing**
+
 Loaded weather dataset + BBQ outcome labels (OSLO_BBQ_weather).
 Converted DATE column to datetime.
 
@@ -43,22 +44,26 @@ Merged with BBQ labels.
 
 
 **2. Exploratory Data Analysis (EDA)**
+
 KDE plots for cloud cover, wind, humidity, sunshine, temperature, pressure, radiation, precipitation.
 Correlation heatmap to study relationships.
 
 
 **3. Feature Engineering**
+
 Added derived categorical feature Season.
 Defined numeric vs. categorical features for preprocessing.
 
 
 **4. Preprocessing Pipeline**
+
 StandardScaler → numeric features
 OneHotEncoder → categorical features (Season)
 Wrapped in a ColumnTransformer.
 
 
 **5. Models Trained**
+
 - Logistic Regression
 - Random Forest
  -XGBoost
@@ -68,6 +73,7 @@ Each model runs inside the same pipeline, ensuring consistent preprocessing.
 
 
 **6. Model Evaluation**
+
 Accuracy, Precision, Recall, F1
 Confusion Matrix (plotted via utils.plot_confusion)
 Feature Importance:
