@@ -1,4 +1,5 @@
 **Project Overview:**
+
 This project predicts whether the weather conditions in Oslo are suitable for a BBQ day. It is designed as an industry-style end-to-end ML pipeline using scikit-learn Pipelines + Deep Learning, with modularized code for maintainability and reproducibility.
 
 Kaggle Dataset : https://www.kaggle.com/datasets/thedevastator/weather-prediction/data
