@@ -79,7 +79,7 @@ Explainability:
 
 **🚀 How to Run**
 1. Clone the repo:
-git clone https://github.com/username/weather-prediction.git
+git clone https://github.com/Heyabhi510/BBQ-Weather-Prediction.git
 cd weather-prediction
 
 2. Install requirements:
